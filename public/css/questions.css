@@ -4,7 +4,6 @@ height: clamp(3rem, 4.5rem, 5.5rem);
 padding: 20px;
 background-color: #eeffff;
 border: none ;
-
 font-weight: 500;
 font-family: 'Noto Sans KR', sans-serif;
 border-radius: 1px;
@@ -27,18 +26,14 @@ h2{
     font-size: clamp(.8rem, 1.8rem, 4rem);
     height: 6rem; 
     margin: clamp(1.5rem, 3rem, 4rem) 2.5rem ;
+
 }
-h1{
+h1.text-featured{
+    color:white;
     font-weight: 700;
     font-size: clamp(2.4rem, 2rem, 7rem);
     height: clamp(2rem, 3rem, 7rem);
-    margin: 0 clamp(1.5rem, 1rem, 4rem) ;
+    position: absolute;
+    top: 0;
 }
-/*RESPONSIVE DESKTOP VERSION ADAPTATE */
-@media (min-width: 760px) {
 
-
-
-
-
-}
