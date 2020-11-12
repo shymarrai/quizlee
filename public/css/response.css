@@ -1,8 +1,18 @@
 /*RESPONSIVE DESKTOP VERSION ADAPTATE */
-/*@media (min-width: 640px) (max-width: 640px) {
+@media (max-width: 340px) {
+
+h1{
+    display: none;
+}
+h2{
+    font-size: 1rem;
+    margin:1rem 3rem;
+    width: 80%;
+}
+.button{
+    height: 3rem;
+    padding: 5px;
+}
 
 
-
-
-
-}*/
+}
