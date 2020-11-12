@@ -28,8 +28,19 @@ body{
 .rodape a{
 text-decoration: none;
 color: white;
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
+#content p,a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+    }
 .rodape{
     bottom:0;
     display: flex;

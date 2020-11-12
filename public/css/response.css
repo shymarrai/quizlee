@@ -33,6 +33,10 @@ h2.text-featured{
 .rodape{
     height: 4rem;
 }
+a.power-button{
+
+    font-size: 6vw;
+ }
 }
 
 @media (min-width: 640px) {
@@ -44,7 +48,7 @@ h2.text-featured{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 22% 0 10vh 0 ;
+        margin: 18% 0 10vh 0 ;
         font-size: 4vh;
     }
     #content{
@@ -80,6 +84,9 @@ h2.text-featured{
  div.power-ups{
      height: 0;
  }
-
+ a.power-button{
+    margin-top: 0;
+    font-size: 3vw;
+ }
 
 }

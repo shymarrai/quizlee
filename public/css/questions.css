@@ -60,10 +60,16 @@ a.power-button{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    font-size: 3vh;
+    font-size: 4vw;
     text-decoration: none;
     color: #232323;
     margin: 2.5vw;
     text-transform: uppercase;
-
+}
+a.power-button img{ 
+    display: flex;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 10vh;
+    padding: 0;
 }
