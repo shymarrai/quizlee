@@ -33,10 +33,13 @@ h1{
     height: 10rem;
     margin: 2rem; 
 }
-/* RESPONSIVE VERSION ADPATATE
+/*RESPONSIVE VERSION ADPATATE */
 @media (min-width: 760px) {
 
-    
+.text-featured{
+    font-size: 1rem;
+    color:red;
+}    
 
 
 }
