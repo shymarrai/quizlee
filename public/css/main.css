@@ -8,7 +8,6 @@ body{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100%;
 }
 
@@ -17,9 +16,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #EBF2F5;
+    background-color: tomato;
+    justify-content: center;
     /*padding: 27%;*/
     height: 100%;
-    width: 50rem;
+    width: 100%;
     color: #303030;
     }
