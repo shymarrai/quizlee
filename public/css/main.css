@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+#content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EBF2F5;
+    /*padding: 27%;*/
+    height: 100%;
+    width: 50rem;
+    color: #303030;
+    }

@@ -1,27 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    height: 100%;
-}
-
-body{
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-#content{
-display: flex;
-align-items: center;
-flex-direction: column;
-background-color: #EBF2F5;
-/*padding: 27%;*/
-height: 100%;
-width: 50rem;
-color: #303030;
-}
 .button{
 width: 20rem;
 height: 5rem;
@@ -41,20 +17,26 @@ transition: background-color .3s;
 background-color: #ddffff;
 border: black 5px solid ;
 }
-h1{
+.text-featured{
     color: #303030;
-    font-weight: 700;
     font-family: 'Oswald', sans-serif;
-    font-size: 4rem; 
-    height: 10rem;
-    margin: 2rem;
-
 }
 h2{
-    color: #303030;
     font-weight: 500;
-    font-family: 'Oswald', sans-serif;
     font-size: 2rem; 
     height: 6rem; 
     margin: 2rem 3.5rem ;
+}
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    height: 10rem;
+    margin: 2rem; 
+}
+/* RESPONSIVE VERSION ADPATATE
+@media (min-width: 760px) {
+
+    
+
+
 }
