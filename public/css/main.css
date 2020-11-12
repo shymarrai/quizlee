@@ -18,12 +18,12 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: tomato;
+    background-color: #232323;
     justify-content: center;
     /*padding: 27%;*/
     height: 100%;
     width: 100%;
-    color: #303030;
+    color: #fdff8c;
     }
 .rodape a{
 text-decoration: none;

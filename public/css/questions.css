@@ -14,7 +14,7 @@ transition: background-color .3s;
     outline: none;
 }
 .button:hover,.power-button:hover{
-background-color: #aaffff;
+background-color: #f5ea87;
 font-weight: 700;
 }
 .text-featured{
@@ -26,10 +26,12 @@ h2.text-featured{
     font-size: 2.2vh;
     height: 1vh; 
     margin: clamp(1.5rem, 3rem, 4rem) 2.5rem ;
+    color: #fdff8c;
+    line-height: 2.8rem;
 
 }
 h1.text-featured{
-    color:white;
+    color: #ffffff;
     font-weight: 700;
     font-size: clamp(2.4rem, 2rem, 7rem);
     height: clamp(2rem, 3rem, 7rem);
@@ -44,7 +46,7 @@ h1.text-featured{
     justify-content: center;
     display: inline-flex;
     margin: 1vw;
-    background-color: #eeffff;
+    background-color: #ffffff;
 }
 div.power-ups {
     margin: 0;
@@ -54,22 +56,71 @@ div.power-ups {
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
+    
 }
+
 a.power-button{
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    font-size: 4vw;
+    font-size: 5rem;
     text-decoration: none;
     color: #232323;
     margin: 2.5vw;
+    padding: 2.4vw;
     text-transform: uppercase;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-weight: 700;
 }
-a.power-button img{ 
+#power-1{
+    color: #303030;
+}
+#power-1:hover{
+    background-color: rgb(255, 188, 87);
+}
+#power-2{
+    color: #303030;
+}
+#power-2:hover{
+    background-color: rgb(219, 126, 255);
+}
+#power-3{
+    color: #303030;
+}
+#power-3:hover{
+    background-color: rgb(87, 255, 219);
+}
+#power-4{
+    color: #303030;
+}
+#power-4:hover{
+    background-color: rgb(83, 163, 255);
+
+}
+span.title1{
+    color: rgb(255, 188, 87);
+}
+span.title2{
+    color: rgb(219, 126, 255);
+}
+span.title3{
+    color:  rgb(87, 255, 219);
+}
+span.title4{
+    color: rgb(83, 163, 255);
+}
+#progress{
+    height: 100vh;
+    margin: .1vh;
+    background: rgb(44,57,238);
+    background: linear-gradient(85deg, rgba(44,57,238,1) 0%, rgba(106,255,223,1) 100%);
     display: flex;
-    box-sizing: border-box;
-    width: 10vw;
-    height: 10vh;
-    padding: 0;
+    width: 100%;
+    
 }
+
+

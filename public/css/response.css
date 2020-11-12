@@ -7,7 +7,7 @@
     }
 h2.text-featured{
     font-size: 2.4rem;
-    margin: 10rem;
+    margin: 18vh;
     margin-bottom: 18vh;
     width: 95%;
     padding: 0;
@@ -34,8 +34,9 @@ h2.text-featured{
     height: 4rem;
 }
 a.power-button{
-
-    font-size: 6vw;
+    margin-bottom: 3vh;
+    padding-top: 0;
+    font-size: 10vw;
  }
 }
 
@@ -48,7 +49,7 @@ a.power-button{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 18% 0 10vh 0 ;
+        margin: 20% 0 10vh 0 ;
         font-size: 4vh;
     }
     #content{
@@ -85,8 +86,28 @@ a.power-button{
      height: 0;
  }
  a.power-button{
-    margin-top: 0;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
     font-size: 3vw;
- }
+    text-decoration: none;
+    color: #232323;
+    margin: 2.5vw;
+    padding: 2.4vw;
+    text-transform: uppercase;
+    width: 3.4vw;
+    height: 6vh;
+    border-radius: 50%;
+    padding: 1vw;
+    padding-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 1vw;
+    background-color: #eeffff;
+
+
+}
 
 }
