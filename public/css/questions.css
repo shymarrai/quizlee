@@ -8,23 +8,23 @@ font-weight: 500;
 font-family: 'Noto Sans KR', sans-serif;
 border-radius: 1px;
 transition: background-color .3s;
+
 }
 .button:focus{
     outline: none;
 }
-.button:hover{
+.button:hover,.power-button:hover{
 background-color: #aaffff;
-border: black 5px solid ;
 font-weight: 700;
 }
 .text-featured{
     color: #303030;
     font-family: 'Oswald', sans-serif;
 }
-h2{
+h2.text-featured{
     font-weight: 500;
-    font-size: clamp(.8rem, 1.8rem, 4rem);
-    height: 6rem; 
+    font-size: 2.2vh;
+    height: 1vh; 
     margin: clamp(1.5rem, 3rem, 4rem) 2.5rem ;
 
 }
@@ -36,4 +36,34 @@ h1.text-featured{
     position: absolute;
     top: 0;
 }
+.number{
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 1vw;
+    background-color: #eeffff;
+}
+div.power-ups {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 1vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a.power-button{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #232323;
+    margin: 2.5vw;
+    text-transform: uppercase;
 
+}
