@@ -1,0 +1,84 @@
+@keyframes animacaoBolada {
+   5%   { 
+        background: linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 31%, rgba(255,229,200,1) 70%, rgba(219,255,50,1) 100%);
+        width: 100%;
+        
+     }
+     10% { background: linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 31%, rgba(255,229,200,1) 70%, rgba(219,255,50,1) 100%);
+        
+    }
+     15% { background:linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 31%, rgba(255,229,200,1) 70%, rgba(219,255,50,1) 100%);
+        
+    }
+     20%  { background:  linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 31%, rgba(255,229,200,1) 70%, rgba(219,255,50,1) 100%);
+        
+    }
+     25% { background: linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 11%, rgba(255,229,200,1) 80%, rgba(219,255,50,1) 100%);
+        
+    }
+     30%  { background: linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 11%, rgba(255,229,200,1) 80%, rgba(219,255,50,1) 100%);
+        
+    }
+     35% { background: linear-gradient(90deg, rgba(219,255,50,1) 0%, rgba(255,229,200,1) 11%, rgba(255,229,200,1) 80%, rgba(219,255,50,1) 100%);
+        
+    }
+     40%  { background: linear-gradient(90deg, rgba(255,232,50,1) 0%, rgba(255,204,200,1) 20%, rgba(255,204,200,1) 69%, rgba(255,232,50,1) 100%);
+        
+    }   
+     45% { background: linear-gradient(90deg, rgba(255,232,50,1) 0%, rgba(255,204,200,1) 20%, rgba(255,204,200,1) 69%, rgba(255,232,50,1) 100%);
+        
+    }
+     50%  { background: linear-gradient(90deg, rgba(255,232,50,1) 0%, rgba(255,204,200,1) 20%, rgba(255,204,200,1) 69%, rgba(255,232,50,1) 100%);
+        
+    }
+     55% { background: linear-gradient(90deg, rgba(255,232,50,1) 0%, rgba(255,204,200,1) 20%, rgba(255,204,200,1) 69%, rgba(255,232,50,1) 100%);
+        
+    }
+     60%  { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     65% { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     70%  { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     75% {background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     80%  { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     85% { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%); 
+        
+    }
+     90%  { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     95% { background: linear-gradient(90deg, rgba(255,173,50,1) 0%, rgba(255,145,145,1) 20%, rgba(255,145,145,1) 77%, rgba(255,173,50,1) 100%);
+        
+    }
+     96% { background: linear-gradient(90deg, rgba(254,54,54,1) 0%,  rgb(97, 4, 4) 49%, rgb(97, 4, 4) 49%, 51%, rgb(97, 4, 4) 49%, 100%);
+        
+    }
+     97% { background: linear-gradient(90deg, rgba(254,54,54,1) 0%,  rgb(97, 4, 4) 49%, rgb(97, 4, 4) 49%, 51%, rgb(97, 4, 4) 49%, 100%);
+        
+    }
+     98% { background: linear-gradient(90deg, rgba(254,54,54,1) 0%,  rgb(97, 4, 4) 49%, rgb(97, 4, 4) 49%, 51%, rgb(97, 4, 4) 49%, 100%); 
+        
+    }
+     99% { background: linear-gradient(90deg, rgba(254,54,54,1) 0%,  rgb(97, 4, 4) 49%, rgb(97, 4, 4) 49%, 51%, rgb(97, 4, 4) 49%, 100%);
+        
+    }
+     100% { 
+         background: linear-gradient(90deg, rgba(254,54,54,1) 0%,  rgb(97, 4, 4) 49%,rgb(97, 4, 4) 49%,51%, rgb(97, 4, 4) 49%, 100%);
+        width: 1%;
+        
+     }
+}
+#progress{
+    animation-name: animacaoBolada;
+    animation-duration: 10s;
+    animation-delay: 1s;
+;
+}

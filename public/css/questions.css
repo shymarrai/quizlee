@@ -76,28 +76,28 @@ a.power-button{
     background-color: #ffffff;
     font-weight: 700;
 }
-#power-1{
+.power-1{
     color: #303030;
 }
-#power-1:hover{
+.power-1:hover{
     background-color: rgb(255, 188, 87);
 }
-#power-2{
+.power-2{
     color: #303030;
 }
-#power-2:hover{
+.power-2:hover{
     background-color: rgb(219, 126, 255);
 }
-#power-3{
+.power-3{
     color: #303030;
 }
-#power-3:hover{
+.power-3:hover{
     background-color: rgb(87, 255, 219);
 }
-#power-4{
+.power-4{
     color: #303030;
 }
-#power-4:hover{
+.power-4:hover{
     background-color: rgb(83, 163, 255);
 
 }
@@ -116,11 +116,12 @@ span.title4{
 #progress{
     height: 100vh;
     margin: .1vh;
-    background: rgb(44,57,238);
-    background: linear-gradient(85deg, rgba(44,57,238,1) 0%, rgba(106,255,223,1) 100%);
     display: flex;
     width: 100%;
     
+    
+    
 }
+
 
 
