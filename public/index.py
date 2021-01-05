@@ -11,8 +11,6 @@ from random import randint, sample
 
 app = Flask(__name__)
 
-app.url_map.strict_slashes = False
-
 nums = []
 
 # Ensure templates are auto-reloaded
@@ -250,5 +248,3 @@ for code in default_exceptions:
     app.errorhandler(code)(errorhandler)
 
     
-if __name__ == '__main__':
-    app.run(host="https://quizlee.vercel.app/",port="80")
