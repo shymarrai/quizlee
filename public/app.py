@@ -11,6 +11,8 @@ from random import randint, sample
 
 app = Flask(__name__)
 
+app.url_map.strict_slashes = False
+
 nums = []
 
 # Ensure templates are auto-reloaded
