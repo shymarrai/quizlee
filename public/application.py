@@ -9,7 +9,7 @@ from unicodedata import normalize
 from helpers import apology, login_required, lookup, usd
 from random import randint, sample
 
-app = Flask(__name__,template_folder='templates_folder')
+app = Flask(__name__)
 
 nums = []
 
