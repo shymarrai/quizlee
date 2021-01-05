@@ -251,4 +251,4 @@ for code in default_exceptions:
 
     
 if __name__ == '__main__':
-    app.run()
+    app.run(host="https://quizlee.vercel.app/",port="80")
