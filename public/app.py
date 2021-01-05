@@ -8,6 +8,8 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from unicodedata import normalize
 from helpers import apology, login_required, lookup, usd
 from random import randint, sample
+from http.server import BaseHTTPRequestHandler
+from cowpy import cow
 
 app = Flask(__name__)
 
@@ -245,5 +247,15 @@ def errorhandler(e):
 # Listen for errors
 for code in default_exceptions:
     app.errorhandler(code)(errorhandler)
+
+class handler(BaseHTTPRequestHandler):
+
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type','text/plain')
+        self.end_headers()
+        message = cow.Cowacter().milk('Hello from Python from a Serverless Function!')
+        self.wfile.write(message.encode())
+        return
 
     
