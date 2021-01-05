@@ -8,7 +8,12 @@ body{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    position: relative;
+
+
 }
 
 :root {
@@ -20,6 +25,7 @@ body{
     flex-direction: column;
     background-color: #232323;
     justify-content: center;
+    position: absolute;
     /*padding: 27%;*/
     height: 100%;
     width: 100%;
@@ -47,8 +53,22 @@ align-items: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1rem;
+    height: 1vh;
     margin: 2.4vh;
-    
+    position: absolute;
 
+}
+
+button{
+    cursor: pointer;
+}
+.voltar{
+    color: white;
+    text-decoration:none;
+
+}
+
+.voltar:hover{
+    color: #fdff8c;
+    text-decoration:none;
 }

@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="bruno-gomes-code" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/menu.css" />
+    <link rel="stylesheet" href="/static/erro.css" />
+    <link rel="stylesheet" href="/static/questions.css" />
+    <link rel="stylesheet" href="/static/main.css" />
+    <link rel="stylesheet" href="/static/response.css" />
+    <link rel="stylesheet" href="/static/buttons.css" />
+    <meta
+      name="description"
+      content="Quiz para nerd's e cansados de um trabalho puxado."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>QUIZLEE{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+     {% if get_flashed_messages() %}
+            <header>
+                <div class="alert alert-primary border text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+    <div id="content">
+
+
+      <h1 class="text-featured-menu">
+        <span class='title5'>E</span>
+        <span class='title2'>R</span>
+        <span class='title3'>R</span>
+        <span class='title4'>O</span>
+        <span class='title5'>R</span>
+      </h1>
+      <main class="erro">
+        {% block main %}{% endblock %}
+      </main>
+    </div>
+
+      <footer class="rodape">
+        <a class="text-featured" href="#">Bruno Gomes</a>
+      </footer>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+
+</html>

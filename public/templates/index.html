@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="bruno-gomes-code" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/menu.css" />
+    <link rel="stylesheet" href="/static/questions.css" />
+    <link rel="stylesheet" href="/static/main.css" />
+    <link rel="stylesheet" href="/static/response.css" />
+    <link rel="stylesheet" href="/static/buttons.css" />
+    <link rel="stylesheet" href="./static/animations.css" />
+    <meta
+      name="description"
+      content="Quiz para nerd's e cansados de um trabalho puxado."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>QUIZLEE</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1 class="text-featured-menu animation-right">
+        <span class='title1 animation-right'>Q</span>
+        <span class='title2 animation-right'>U</span>
+        <span class='title3 animation-right'>I</span>
+        <span class='title4 animation-right'>Z</span>
+        <span class='title5 animation-right'>LEE</span>
+      </h1>
+      {% if session.user_id %}
+      <h1 class="text-featured-user">
+      <span class='title4'>User:</span><span class='title5'> {{user.username}}</span><br>
+      <span class='title3'>Score:</span><span class='title5'> {{user.score}}</span>
+      <a href="/logout" class="voltar logout" style="left:0;">LOGOUT</a>
+      </h1>
+      {% endif %}
+      <div class="questions-menu">
+      {% if session.user_id %}
+        <a href="/play" disable><button type="button" value="a" class="button-questions menu power-1 animate-right" disable>PLAY!</button></a>
+      {% endif %}
+      <a href="/login"><button type="button" value="b" class="button-questions menu power-2 animation-right">LOGIN</button></a>
+      <a href="/scores"><button type="button" value="c" class="button-questions menu power-3 animation-right">SCORES</button></a>
+      <a href="/register"><button type="button" value="d" class="button-questions menu power-4 animation-right">REGISTER</button></a>
+    </div>
+    </div>
+      <footer class="rodape">
+        <a class="text-featured" href="#">Bruno Gomes</a>
+      </footer>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+
+</html>
