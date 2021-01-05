@@ -10,6 +10,12 @@ from helpers import apology, login_required, lookup, usd
 from random import randint, sample
 from http.server import BaseHTTPRequestHandler
 from cowpy import cow
+import sys
+from myapp import app as application
+
+sys.path.insert(0, "/public/")
+
+
 
 app = Flask(__name__)
 
@@ -257,5 +263,8 @@ class handler(BaseHTTPRequestHandler):
         message = cow.Cowacter().milk('Hello from Python from a Serverless Function!')
         self.wfile.write(message.encode())
         return
+
+    if __name__ == "__main__":
+    app.run()
 
     
