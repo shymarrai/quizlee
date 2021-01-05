@@ -12,7 +12,6 @@ from random import randint, sample
 app = Flask(__name__)
 
 nums = []
-
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
