@@ -10,11 +10,6 @@ from helpers import apology, login_required, lookup, usd
 from random import randint, sample
 from http.server import BaseHTTPRequestHandler
 from cowpy import cow
-import sys
-from myapp import app as application
-
-sys.path.insert(0, "/public/")
-
 
 
 app = Flask(__name__)
@@ -264,7 +259,8 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(message.encode())
         return
 
-    if __name__ == "__main__":
-    app.run()
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 
     
