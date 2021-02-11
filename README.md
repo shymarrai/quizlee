@@ -12,13 +12,13 @@ e um dos imports como do trecho "from cs50 import SQL" deu erro assim como do fl
 <p> É um web app que retorna questões pré inseridas em um banco de dados e traz aleatóriamente tais questões para serem respondidas. Tais questões iniciam uma espécie de competição aos usuários por conter uma área de scores, onde são mostrados os 10 mais pontuadores. O projeto foi meu ProjectFinal no CS 50 de 2020 por Harvard, me garantiu 
 o diploma e muita experiência. </p>
 
-## funcionamento
+## Funcionamento
 O usuário deve cadastrar-se para ter acesso ao game, em seguida será redirecionado para o menu onde terá como opção iniciar o game.
 
-### o game
+### O game
 o game em si é simples, ele puxa aleatóriamente as questões e também as respostas e vai adicionando o valor de um ponto a cada acerto
 
-## score
+## Score
 O score em si seleciona o 10 melhores no ranking
 
 ## Skills
