@@ -1,5 +1,0 @@
-cs50
-Flask
-Flask-Session
-requests
-cowpy==1.0.3
