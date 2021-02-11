@@ -1,6 +1,7 @@
 
 ![Screenshot](screenshot.jpg)
 <details>
+  <sumary> Help! </sumary>
 Eu não consegui fazer deploy da aplicação fora do ambiente CS50, se alguém por ventura souber como deiblar isso, peço que ajude, o ambiente era https://ide.cs50.io/
 e um dos imports como do trecho "from cs50 import SQL" deu erro assim como do flask_session quando tentei fazer deploy pelo https://www.pythonanywhere.com .
 <details>
