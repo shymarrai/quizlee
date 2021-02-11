@@ -2,9 +2,11 @@
 ![Screenshot](screenshot.png)
 <details>
   <summary> Help! </summary>
+  
 Eu não consegui fazer deploy da aplicação fora do ambiente CS50, se alguém por ventura souber como deiblar isso, peço que ajude, o ambiente era https://ide.cs50.io/
-e um dos imports como do trecho "from cs50 import SQL" deu erro assim como do flask_session quando tentei fazer deploy pelo https://www.pythonanywhere.com .
-<details>
+e um dos imports como do trecho "from cs50 import SQL" deu erro assim como do flask_session quando tentei fazer deploy pelo https://www.pythonanywhere.com.
+
+</details>
   
 # QUIZLEE✨
 <p> É um web app que retorna questões pré inseridas em um banco de dados e traz aleatóriamente tais questões para serem respondidas. Tais questões iniciam uma espécie de competição aos usuários por conter uma área de scores, onde são mostrados os 10 mais pontuadores. O projeto foi meu ProjectFinal no CS 50 de 2020 por Harvard, me garantiu 
