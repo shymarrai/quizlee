@@ -35,7 +35,7 @@ O score em si seleciona o 10 melhores no ranking
 &nbsp;
 <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
 
-#Exemplos
+# Exemplos
 
 ## Desktop
 ![Screenshot](screenshot2.png)
