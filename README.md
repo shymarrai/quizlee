@@ -1,5 +1,5 @@
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 <details>
   <summary> Help! </summary>
 Eu não consegui fazer deploy da aplicação fora do ambiente CS50, se alguém por ventura souber como deiblar isso, peço que ajude, o ambiente era https://ide.cs50.io/
@@ -38,11 +38,11 @@ O score em si seleciona o 10 melhores no ranking
 #Exemplos
 
 ## Desktop
-![Screenshot](screenshot2.jpg)
-![Screenshot](screenshot4.jpg)
-![Screenshot](screenshot6.jpg)
+![Screenshot](screenshot2.png)
+![Screenshot](screenshot4.png)
+![Screenshot](screenshot6.png)
 
 ## Mobile
-![Screenshot](screenshot3.jpg)
-![Screenshot](screenshot5.jpg)
-![Screenshot](screenshot7.jpg)
+![Screenshot](screenshot3.png)
+![Screenshot](screenshot5.png)
+![Screenshot](screenshot7.png)
